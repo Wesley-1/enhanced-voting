@@ -1,6 +1,7 @@
 import Dependencies.GUICE
 import Dependencies.LOMBOK
 import Dependencies.SELENIUM
+import Dependencies.SPRING
 
 sharedProjectData.main_cls = "$group.VotingClient"
 
@@ -10,5 +11,6 @@ dependencies {
     compileOnly(LOMBOK)
     annotationProcessor(LOMBOK)
     compileOnly(GUICE)
-    compileOnly(SELENIUM)
+    implementation(SELENIUM)
+   // implementation(SPRING)
 }

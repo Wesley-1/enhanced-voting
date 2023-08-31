@@ -10,6 +10,8 @@ object Versions {
     const val SHELFTOR_VER = "0.2"
     const val BINDABLES_VER = "v0.2"
     const val SELENIUM_VER = "3.+"
+    const val SPRING_VER = "2.0.2"
+
 }
 
 object Dependencies {
@@ -23,4 +25,5 @@ object Dependencies {
     const val APACHE_HTTP = "org.apache.httpcomponents:httpmime:${Versions.APACHE_VER}"
     const val SHELFTOR = "dev.oop778.shelftor:shelftor-core:${Versions.SHELFTOR_VER}"
     const val SELENIUM = "org.seleniumhq.selenium:selenium-java:${Versions.SELENIUM_VER}"
+    const val SPRING = "org.springframework.boot:${Versions.SPRING_VER}"
 }
